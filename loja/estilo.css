@@ -1,0 +1,22 @@
+    <div id="menu"></div>
+  <script>
+    //carregar o conteudo do menu.html
+    fetch("menu.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getelementByID("menu").innerHTML = data;
+      })
+      .cath(error => console.error("erro ao carregar o menu:", error));
+/*Componente*/
+body{
+    /*propriedade:valor*/
+    background-color: rgb(126, 179, 161)
+}
+
+p{
+    color: rgb(0, 0, 0)
+}
+
+h1{
+    color: rgb(110, 21, 21)
+}
