@@ -46,7 +46,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Carrinho Estilo Renner</title>
+  <title>Carrinho</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; }
     h1 { color: #333; }
@@ -82,7 +82,8 @@
   <h1>Produtos</h1>
 
   <div class="produto">
-    <img src="https://via.placeholder.com/80" alt="Produto A">
+    <img src="blusaoestampa.png" "camisetatasha.png" alt="Produto A">
+        
     <div class="info">
       <div>Produto A</div>
       <div class="preco">R$ 50,00</div>
@@ -183,7 +184,21 @@
       atualizarCarrinho();
     }
   </script>
+<body> <!-- Inicio do corpo da página -->
 
+  ... <!-- Conteúdo da página -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body> <!-- Fim do corpo da página -->
 </body>
 </html>
 
