@@ -1,12 +1,4 @@
-    <div id="menu"></div>
-  <script>
-    //carregar o conteudo do menu.html
-    fetch("menu.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getelementByID("menu").innerHTML = data;
-      })
-      .cath(error => console.error("erro ao carregar o menu:", error));
+
 /*Componente*/
 body{
     /*propriedade:valor*/
